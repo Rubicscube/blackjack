@@ -23,6 +23,7 @@ class blackjack{
         }
         echo 'total: '.$_SESSION['score']."<br>";
 
+        return $HIT;
     }
 
 
